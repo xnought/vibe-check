@@ -1,4 +1,4 @@
-# vibe-check
+# vibecheck
 
 Suppose I took every sentence you've ever said and computed the sentiment from -2 to 1.
 
@@ -27,6 +27,8 @@ You have a fixed amount of time before nothingness. Try not to end up negative o
 Pass the vibe check. (I understand how stupid this sounds, just go with it)
 
 ## Usage
+
+Take data from your interactions with someone. Put in your personality type and see what their vibe is relative to you.
 
 ```python
 import gpt_vibecheck from from vibecheck
