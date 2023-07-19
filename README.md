@@ -25,3 +25,19 @@ Check your pattens. Could you phrase your life differently? Vibe check your inte
 You have a fixed amount of time before nothingness. Try not to end up negative on this scale.
 
 Pass the vibe check. (I understand how stupid this sounds, just go with it)
+
+## Usage
+
+```python
+import gpt_vibecheck from from vibecheck
+
+others_sentences = ["I hate you", "I love that I hate you", "I love you"]
+your_personality = "I am a computer science student that dislikes unnecessary complexity and takes peoples suggestions too often. INTJ personality type."
+vibe = gpt_vibecheck(
+	personality=your_personality,
+	sentences=others_sentences,
+	open_ai_key="sk.xxxx...",
+)
+```
+
+Outputs `-0.5666666666666668` as on average negative vibe. Maybe you should get more data on this person to be sure.
